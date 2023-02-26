@@ -1,5 +1,6 @@
 import {BsPlayCircle, BsCheck2} from  'react-icons/bs';
 import {BiPlay} from  'react-icons/bi';
+import image from '../../assets/Images/Home-page/home2.jpg'
 
 function Home2() {
     return ( 
@@ -26,7 +27,15 @@ function Home2() {
                     </div>
                 </div>
             </div>
-            <div className="bg-yellow-400"></div>
+            <div className="  pt-24 px-10">
+                <div className='relative font-serif'>
+                    <img src={image}  alt="" /> 
+                    <div className='absolute bottom-0 bg-white w-44 h-28 flex flex-col gap-2 justify-end items-start'>
+                        <h1 className='font-bold text-green-700 text-7xl'>15+</h1>
+                        <p className=' text-green-600'>Years Experience</p>
+                    </div>
+                </div>
+            </div>
         </div>
      );
 }
